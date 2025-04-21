@@ -7,3 +7,7 @@ https://isaactsampson.github.io/server-composer/
 If you wish to clone and run the project locally you can do so using npm:
 
 ```npm i --verbose && npm start```
+
+You can run the unit tests with:
+
+```npm test```
