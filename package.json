@@ -2,7 +2,7 @@
   "name": "server-composer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://your-username.github.io/server-composer",
+  "homepage": "https://IsaacTSampson.github.io/server-composer",
   "dependencies": {
     "@craco/craco": "^7.1.0",
     "@emotion/react": "^11.14.0",
