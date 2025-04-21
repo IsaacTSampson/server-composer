@@ -1,5 +1,9 @@
+# server-pixels
 
+For you convenience I have hosted this project on GitHub Pages which you can access here:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+https://isaactsampson.github.io/server-composer/
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you wish to clone and run the project locally you can do so using npm:
+
+```npm i --verbose && npm start```
