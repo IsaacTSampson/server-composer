@@ -2,6 +2,7 @@
   "name": "server-composer",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://your-username.github.io/server-composer",
   "dependencies": {
     "@craco/craco": "^7.1.0",
     "@emotion/react": "^11.14.0",
@@ -15,6 +16,7 @@
     "@types/node": "^16.18.126",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
+    "gh-pages": "^6.3.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-scripts": "5.0.1",
@@ -25,7 +27,9 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test --watchAll=false",
-    "format": "prettier --write \"**/*.{js,ts,css,html,jsx,tsx}\""
+    "format": "prettier --write \"**/*.{js,ts,css,html,jsx,tsx}\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
